@@ -1,10 +1,10 @@
-# Write a Python program to display calendar. 
+# Write a Python program to display calendar. 2015
 
 import calendar 
 year = int(input("Enter year: ")) 
 month = int(input("Enter Month:")) 
 
-cal = calendar.month(year,month) 
+cal = calendar.month(year,month)  
 print(cal)
 
 
